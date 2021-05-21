@@ -1,0 +1,1 @@
+The project is all about designing the google homepage using HTML and CSS.
