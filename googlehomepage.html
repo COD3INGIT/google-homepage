@@ -1,11 +1,44 @@
 <!DOCTYPE html>
+<style>
+     
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;       
+        
+    }
+
+    nav{
+
+        padding:10px;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;    
+    
+    }
+    .nav_link{
+
+        padding:0 10px;
+        text-decoration: none;
+        color: #5f6368;
+              
+    }
+    #nav_link_profpic{
+           
+           width: 35px;
+           height: 35px;
+           border-radius: 50%;
+           background: url("img/pp.jpg");
+           background-size:cover;
+           
+       }
+</style>
 <html>
     <header>
         <nav class="nav">
-            <a class="nav-link" href="#">Gmail</a>
-            <a class="nav-link"href="#">Images</a>  
-            <a class="nav-link" href="#"><img src="img/outline_apps_black_24dp.png"></a>            
-            <a href="#" class=nav-link-userpic></a>
+            <a class="nav_link" href="#">Gmail</a>
+            <a class="nav_link"href="#">Images</a>  
+            <a class="nav_link" href="#"><img src="img/outline_apps_black_24dp.png"></a>            
+            <a href="#" id=nav_link_profpic></a>
             </nav>
     </header>
     <body>
